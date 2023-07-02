@@ -36,8 +36,8 @@ Provide IP address(es) when prompted. You can enter a single IP address, multipl
 The script will retrieve the ASN information for each IP address, including the resolved domain (if any), AS number, and AS organization. The results will be stored in the asn_info.txt file and a CSV file named asn_info.csv.
 
 After execution, a summary will be displayed, showing the total number of IP addresses checked, the number of resolved IP addresses, and the number of unresolved IP addresses.
-
-# Requirements
+```shell
+ Requirements
 Bash (Unix Shell)
 dig command-line tool
 whois command-line tool
