@@ -15,33 +15,6 @@ asn_info.sh script is a handy tool to check if IP addresses are resolvable to do
 
 🚀 This script is a helpful tool for network administrators, cybersecurity professionals, or anyone interested in investigating IP address connectivity and ownership information. 💡This script retrieves ASN (Autonomous System Number) information for a list of IP addresses using APNIC (Asia-Pacific Network Information Centre) database.
 
-## Usage
 
-1. Clone the repository:
-
-```shell
-git clone <repository-url>
-
-2. Navigate to the cloned repository:
-cd asn-info-script
-
-3. Make the script executable (if needed):
-chmod +x asn_info.sh
-
-4. Run the script and follow the prompts:
-./asn_info.sh
-
-Provide IP address(es) when prompted. You can enter a single IP address, multiple IP addresses separated by spaces, or specify a file containing a list of IP addresses.
-
-The script will retrieve the ASN information for each IP address, including the resolved domain (if any), AS number, and AS organization. The results will be stored in the asn_info.txt file and a CSV file named asn_info.csv.
-
-After execution, a summary will be displayed, showing the total number of IP addresses checked, the number of resolved IP addresses, and the number of unresolved IP addresses.
-```shell
- Requirements
-Bash (Unix Shell)
-dig command-line tool
-whois command-line tool
-License
-This script is released under the MIT License.
 
 Feel free to use and modify this script according to your needs.
