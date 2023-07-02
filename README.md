@@ -1,4 +1,4 @@
-This script is a handy tool to check if IP addresses are resolvable to domain names and retrieve ASN (Autonomous System Number) information using the APNIC (Asia-Pacific Network Information Centre) database. 🌐
+asn_info.sh script is a handy tool to check if IP addresses are resolvable to domain names and retrieve ASN (Autonomous System Number) information using the APNIC (Asia-Pacific Network Information Centre) database. 🌐
 
 ✨ The script prompts you to enter an IP address or a set of IP addresses separated by spaces. It also accepts a file containing a list of IP addresses. 📝
 
