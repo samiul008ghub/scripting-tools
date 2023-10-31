@@ -4,6 +4,19 @@
 # It is a handy script that checks if IP addresses are resolvable to domain names and retrieves ASN (Autonomous System Number) information using the APNIC (Asia-Pacific Network Information Centre) database.
 ##############################################
 
+
+# Function to check if a command is available
+command_exists() {
+  command -v "$1" >/dev/null 2>&1
+}
+
+# Check if whois is installed
+if ! command_exists whois; then
+  echo "The 'whois' tool is not installed. Installing it..."
+  # You can modify this line to use the package manager of your choice (e.g., apt-get for Debian/Ubuntu)
+  sudo apt-get install whois
+fi
+
 # Prompt for input
 read -p "Enter IP address(es) separated by spaces or the path to a file: " ip_input
 
